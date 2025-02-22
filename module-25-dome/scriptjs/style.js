@@ -13,31 +13,25 @@ sectionss.classList.remove('textLerg');
 
 
 
-function calculateWatchTime( times ) {
+//! child sivling
 
-    let sum = 0;
-    
-    for(let allTime of times){
-    
-    sum = sum + allTime;
-    
-    if(typeof sum === 'string'){
-    
-    return 'invalid'
-    
-    }
-    
-    }
-    
-    let hower = Math.floor(sum/3600);
-    
-    let remainSec = sum%3600;
-    
-    let minut = Math.floor(remainSec/60);
-    
-    let mainSec = remainSec % 60;
-    
-    return {hower:hower, minut:minut, second:mainSec}
-    
-    }
-    console.log(calculateWatchTime([5600]));
+
+const plecesContainer = document.getElementById('plecese-container');
+// console.log(plecesContainer.childNodes);
+// console.log(plecesContainer.childNodes[3]);
+// console.log(plecesContainer.childNodes[3].nextSibling);
+
+
+const plecesUl = document.querySelector("#plecese-container ul");
+console.log(plecesUl);
+
+//! creat element 
+
+let creat = document.createElement('p');
+let creatt = document.createElement('li');
+console.log(creatt.innerHTML = ' hi im jillu');
+console.log(plecesUl.appendChild(creatt));            //?li
+console.log(creat);
+let crat2 =document.createElement('li');
+console.log(crat2.innerHTML = 'hi this is tanvir');
+console.log(plecesUl.appendChild(crat2));
