@@ -8,3 +8,10 @@
     /* text-align: center; */
     padding-left: 40px;
 }
+
+.textCenter{
+text-align: center;
+}
+.textLerg{
+    font-size: 30px;
+}

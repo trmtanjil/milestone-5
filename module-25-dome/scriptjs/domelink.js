@@ -56,7 +56,7 @@ for(let ids of idselect){
 
 let style = document.getElementById('fevorite-title').style.color = 'green';
 let stylee = document.getElementById('fevorite-title').style.background = 'yellow';
-console.log(stylee);
+// console.log(stylee);
 let styleee = document.getElementById('fevorite-title').style.insetBlock;
 // console.log(styleee);
 
@@ -78,8 +78,8 @@ titile.setAttribute('title', 'set toplist js');
 // console.log(titile);
 
 
-console.log(document.getElementsByClassName('titleClass '));
-console.log(document.getElementsByClassName('mainClass')[0].innerHTML);
-console.log(document.getElementsByClassName('mainClass')[0].innerHTML = '<h2>abc dom is changing</h2>');
+// console.log(document.getElementsByClassName('titleClass '));
+// console.log(document.getElementsByClassName('mainClass')[0].innerHTML);
+// console.log(document.getElementsByClassName('mainClass')[0].innerHTML = '<h2>abc dom is changing</h2>');
 
-console.log(document.getElementsByClassName('titleClass '));
+// console.log(document.getElementsByClassName('titleClass '));
