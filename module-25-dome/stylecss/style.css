@@ -1,0 +1,10 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+.main{
+    background: #1e1d1d;
+    padding: 10px 0px;
+    /* text-align: center; */
+    padding-left: 40px;
+}
