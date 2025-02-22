@@ -52,3 +52,34 @@ for(let ids of idselect){
     // console.log(ids);
 }
 
+//! js style 
+
+let style = document.getElementById('fevorite-title').style.color = 'green';
+let stylee = document.getElementById('fevorite-title').style.background = 'yellow';
+console.log(stylee);
+let styleee = document.getElementById('fevorite-title').style.insetBlock;
+// console.log(styleee);
+
+   //! add.classlist  remove.classlist
+
+let titile = document.getElementById('fevorite-title')
+// console.log(titile.getAttribute('id'));
+// console.log(titile.getAttribute('class'));
+// console.log(titile.classList);
+titile.classList.remove('innerClass')
+titile.classList.add('innerClassss')
+// console.log(titile);
+// console.log(titile.classList);
+
+
+//! set attribute('title', 'tools tip addd')
+
+titile.setAttribute('title', 'set toplist js');
+// console.log(titile);
+
+
+console.log(document.getElementsByClassName('titleClass '));
+console.log(document.getElementsByClassName('mainClass')[0].innerHTML);
+console.log(document.getElementsByClassName('mainClass')[0].innerHTML = '<h2>abc dom is changing</h2>');
+
+console.log(document.getElementsByClassName('titleClass '));
