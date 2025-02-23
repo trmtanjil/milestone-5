@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        transition: 0.5s;
+    }
+    h1:hover{
+        color: bisque;
+        transition: 0.5s;
+       
+    }
+    h3{
+        transition: 0.5s;
+    }
+    h3:hover{
+        color: rgb(249, 188, 114);
+    }
+
+    .comment{
+        border: 2px solid greenyellow;
+        background-color: rgb(127, 231, 197);
+        margin: 10px;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+        transition: 0.5s;
+    }
+    .comment:hover{
+        background-color: rgb(0, 183, 255);
+        color: aliceblue;
+    }
+</style>
+<body>
+    
+<h1>my Awesome Comment Box. Write what in ypur mind!'||</h1>
+
+<section>
+<h3>All comments here</h3>
+<div id="comment_conntainer">
+    <p class="comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit atque delectus optio, blanditiis provident at corporis autem placeat sit eius laudantium vel cupiditate accusantium laboriosam beatae saepe quae veritatis earum.</p>
+    <p class="comment">Ipsam quidem temporibus eos iste saepe distinctio odit est aliquid eligendi suscipit dolor obcaecati aliquam rerum, tempore ipsa nemo voluptatibus animi sint explicabo. Consectetur debitis distinctio, atque nulla placeat pariatur.</p>
+    <p class="comment">Totam sint, corrupti voluptate similique temporibus dignissimos nostrum saepe alias est amet quam nemo iure tempora dolores laborum, eius quae quasi ex placeat natus sed sunt sit culpa? Alias, blanditiis!</p>
+</div>
+
+
+<!-- <form> -->
+    <textarea name="" id="comment-text-area" cols="30" rows="4"></textarea>
+
+    <button id="btn-click-comment">click comment</button>
+<!-- </form> -->
+
+
+</section>
+
+
+
+    <script src="./scriptss/comment-box.js"></script>
+</body>
+</html>
