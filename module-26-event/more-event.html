@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more event</title>
+</head>
+<body>
+    <button id="more-event">more event</button>
+    <input placeholder="you name" id="focus-mouse" type="text">
+
+    <input id="moreEmail" placeholder="Enter your email" type="text">
+    <script>
+        //!mouseenter
+        // document.getElementById('more-event')
+        // .addEventListener('mouseenter',function(){
+        //     console.log('eveent triggered');
+        // })
+
+    // mousemove
+        // document.getElementById('more-event')
+        // .addEventListener('mousemove',function(){
+        //     console.log('eveent triggered');
+        // })
+        //mouseour
+        document.getElementById('more-event')
+        .addEventListener('mouseout',function(){
+            console.log('eveent triggered');
+        })
+
+        // //?mouseFocus
+        // document.getElementById('focus-mouse')
+        //     .addEventListener('focus', function(){
+        //         console.log('focus me');
+        //     })
+        // document.getElementById('moreEmail')
+        // .addEventListener('focus',function(){
+        //     console.log("enter youe Email");
+        // })
+        //?mouseFocus
+        // document.getElementById('focus-mouse')
+        //     .addEventListener('blur', function(){
+        //         console.log('focus me');
+        //     })
+        
+        //key down
+        document.getElementById('moreEmail')
+        .addEventListener('keydown',function(eveent){
+            console.log("enter youe Email",eveent.target.value);
+        })
+        //key up
+        document.getElementById('moreEmail')
+        .addEventListener('keyup',function(eveent){
+            console.log("enter youe Email",eveent.target.value);
+        })
+
+
+    </script>
+</body>
+</html>
