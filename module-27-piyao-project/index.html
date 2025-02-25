@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+<body>
+    
+    <section class="max-w-md min-h-screen mx-auto bg-gray-200">
+        <!-- ?logo seciton -->
+        <div class="relative ml-[97px] mb-5 pt-16">
+            <img class="absolute w-[250px]" src="./assets/bg.png" alt="">
+            <img class="absolute left-[130px] pt-10 w-[70px] ml-[-33px]" src="./assets/Group.png" alt="">
+        </div>
+        <!-- //? login seciton -->
+        <div class="hero bg-base-500 min-h-screen">
+ 
+              <div class="card bg-slate-50 w-full max-w-sm shrink-0 shadow-2xl">
+                <form class="card-body">
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text text-[#4d3232] font-bold">Mobile Number</span>
+                    </label>
+                    <input id="login-number" value="01867911992" type="number" placeholder="Enter your number " class="input bg-slate-300" required />
+                  </div>
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text  text-[#4d3232] font-bold">4 Digit Pin</span>
+                    </label>
+                    <input id="login-pin" type="text" value="1234" placeholder="Enter 4 Digit Pin" class="input  bg-slate-300" required />
+                    
+                  </div>
+                  <div class="form-control mt-6">
+                    <button id="login-btn" class="btn btn-primary">Login</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div> 
+    </section>
+
+
+    <script src="./script/login.js"></script>
+</body>
+</html>
