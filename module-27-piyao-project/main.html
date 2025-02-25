@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html >
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,118 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <h1>ho im ok</h1>
+    <section>
+        <div class="flex justify-between mt-6 mx-6">
+            <div class="flex items-center justify-center  selection:">
+                <img  class="w-[50px] h-[50px]" src="./assets/Group.png" alt="">
+           <div class="mx-5 ">
+            <h1 class="font-bold">  $ <span>4500</span></h1>
+            <p>Available Balance</p>
+           </div>
+            </div>
+            <button class="btn  ">Log Out</button>
+        </div>
+        <hr class="my-4">
+        <div class=" ml-10 py-3">
+            <h1 class="font-bold ">Welcome to Payooo!</h1>
+            <p>Enjoy easy and convenient financial srvices with us . <br> Cashout chareve is low ack</p>
+        </div>
+        <section>
+            <div>
+                <div class=" grid grid-cols-3 gap-4 m-3">
+                    <!-- box1 -->
+                    <div class="card bg-base-100  shadow-xl cursor-pointer">
+                        <div class="card-body flex justify-center items-center ">
+                            <img class="w-min" src="./assets/wallet1.png" alt="">
+                          <h2 class="card-title">Add Money</h2>
+                        </div>
+                      </div>
+                      <!-- box 2 -->
+                      <div class="card bg-base-100  shadow-xl cursor-pointer">
+                        <div class="card-body flex justify-center items-center ">
+                            <img class="w-min" src="./assets/purse1.png" alt="">
+                          <h2 class="card-title">Add Money</h2>
+                        </div>
+                      </div>
+                      <!-- box 3 -->
+                      <div class="card bg-base-100  shadow-xl cursor-pointer">
+                        <div class="card-body flex justify-center items-center ">
+                            <img class="w-min" src="./assets/money1.png" alt="">
+                          <h2 class="card-title">Add Money</h2>
+                        </div>
+                      </div>
+                      <!-- box 4 -->
+                      <div class="card bg-base-100  shadow-xl cursor-pointer">
+                        <div class="card-body flex justify-center items-center ">
+                            <img class="w-min" src="./assets/send1.png" alt="">
+                          <h2 class="card-title">Add Money</h2>
+                        </div>
+                      </div>
+                      <!-- box 2 -->
+                      <div class="card bg-base-100  shadow-xl cursor-pointer">
+                        <div class="card-body flex justify-center items-center ">
+                            <img class="w-min" src="./assets/wallet1.png" alt="">
+                          <h2 class="card-title">Add Money</h2>
+                        </div>
+                      </div>
+                      <!-- box 3 -->
+                      <div class="card bg-base-100  shadow-xl cursor-pointer">
+                        <div class="card-body flex justify-center items-center ">
+                            <img class="w-min" src="./assets/wallet1.png" alt="">
+                          <h2 class="card-title">Add Money</h2>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- pay bill section -->
+
+         <section>
+            <h1 class="font-bold pt-10 ml-9">Pay bill!</h1>
+            <div class="hero  ">
+ 
+                <div class="card bg-slate-50 w-full max-w-sm shrink-0 shadow-2xl">
+                  <form class="card-body">
+                    <div>
+                        <h3 class="my-3 font-bold">Select TO Pay</h3>
+                        <select class="select select-info w-full max-w-xs">
+                            <option disabled selected>Select account</option>
+                            <option>nagad</option>
+                            <option>selfin</option>
+                            <option>bkas</option>
+                          </select>
+                    </div>
+                    <div class="form-control">
+                        <label class="label">
+                          <span class="label-text text-[#4d3232] font-bold">Biller Account Number</span>
+                        </label>
+                        <input id="login-number"     value="01867911992"  type="number" placeholder="Enter account number " class="input bg-slate-300" required />
+                      </div>
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="label-text text-[#4d3232] font-bold">Amount to pay</span>
+                      </label>
+                      <input id="login-number" type="number" placeholder="ammoun to pay " class="input bg-slate-300" required />
+                    </div>
+                 
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="label-text  text-[#4d3232] font-bold">4 Digit Pin</span>
+                      </label>
+                      <input id="login-pin" type="text" value="1234" placeholder="Enter 4 Digit Pin" class="input  bg-slate-300" required />
+                      
+                    </div>
+                    
+                    <div class="form-control mt-6">
+                      <button id="login-btn" class="btn btn-primary">Login</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+         </section>
+    </section>
 
     
 </body>
