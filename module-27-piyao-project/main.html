@@ -28,17 +28,17 @@
             <div>
                 <div class=" grid grid-cols-3 gap-4 m-3">
                     <!-- box1 -->
-                    <div class="card bg-base-100  shadow-xl cursor-pointer">
+                    <div id="add-Moyey-box" class="card bg-base-100  shadow-xl cursor-pointer">
                         <div class="card-body flex justify-center items-center ">
                             <img class="w-min" src="./assets/wallet1.png" alt="">
-                          <h2 class="card-title">Add Money</h2>
+                          <h2   class="card-title">Add Money</h2>
                         </div>
                       </div>
                       <!-- box 2 -->
-                      <div class="card bg-base-100  shadow-xl cursor-pointer">
+                      <div id="chash-out-box" class="card bg-base-100  shadow-xl cursor-pointer">
                         <div class="card-body flex justify-center items-center ">
                             <img class="w-min" src="./assets/purse1.png" alt="">
-                          <h2 class="card-title">Add Money</h2>
+                          <h2 class="card-title">Cash Out</h2>
                         </div>
                       </div>
                       <!-- box 3 -->
@@ -76,8 +76,9 @@
 
         <!-- pay bill section -->
 
-         <section>
-            <h1 class="font-bold pt-10 ml-9">Pay bill!</h1>
+         <section id="add-Mony">
+           
+            <h1 class="font-bold pt-10   text-center text-2xl">Pay bill!</h1>
             <div class="hero  ">
  
                 <div class="card bg-slate-50 w-full max-w-sm shrink-0 shadow-2xl">
@@ -119,8 +120,45 @@
                 </div>
               </div>
          </section>
+
+
+         <!--? chasOut  -->
+         <section id="chashOut-section">
+           <h3 class="text-center py-5 font-bold text-xl">Cash Out</h3>
+          <div class="hero bg-base-500 ">
+ 
+            <div class="card bg-slate-50 w-full max-w-sm shrink-0 shadow-2xl">
+              <form class="card-body">
+                <div class="form-control">
+                  <label class="label">
+                    <span class="label-text text-[#4d3232] font-bold">Mobile Number</span>
+                  </label>
+                  <input id="login-number" value="01867911992" type="number" placeholder="Enter your number " class="input bg-slate-300" required />
+                </div>
+
+                <div class="form-control">
+                  <label class="label">
+                    <span  class=" label-text text-[#4d3232] font-bold">Amount to pay</span>
+                  </label>
+                  <input id="pay-ammountt" type="number" placeholder="ammoun to pay " class="input bg-slate-300" required />
+                </div>
+
+                <div class="form-control">
+                  <label class="label">
+                    <span class="label-text  text-[#4d3232] font-bold">4 Digit Pin</span>
+                  </label>
+                  <input id="login-pin" type="text" value="1234" placeholder="Enter 4 Digit Pin" class="input  bg-slate-300" required />
+                </div>
+                <div class="form-control mt-6">
+                  <button id="login-btn" class="btn btn-primary">Login</button>
+                </div>
+              </form>
+            </div>
+          </div>
+         </section>
     </section>
 
    <script src="./script/add-mony.js"></script>
+   <script src="./script/toogle.js"></script>
 </body>
 </html>
